@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    http_parser.rb (0.5.2)
+    http_parser.rb (0.5.3)
 
 GEM
   remote: http://rubygems.org/

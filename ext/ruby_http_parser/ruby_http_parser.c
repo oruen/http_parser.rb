@@ -278,10 +278,7 @@ int on_message_complete(ryah_http_parser *parser) {
 
 static ryah_http_parser_settings settings = {
   .on_message_begin = on_message_begin,
-  .on_path = on_path,
-  .on_query_string = on_query_string,
   .on_url = on_url,
-  .on_fragment = on_fragment,
   .on_header_field = on_header_field,
   .on_header_value = on_header_value,
   .on_headers_complete = on_headers_complete,
